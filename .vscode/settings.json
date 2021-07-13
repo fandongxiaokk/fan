@@ -1,0 +1,170 @@
+{
+  // Terminal
+  "terminal.integrated.setLocaleVariables": false,
+  //终端
+  //"terminal.external.osxExec": "iTerm.app",
+  //终端shell
+  //"terminal.integrated.shell.osx": "zsh",
+  //终端字体
+  //"terminal.integrated.fontFamily": "Hack Nerd Font",
+  "terminal.integrated.env.windows": {
+    "CMDER_ROOT": "D:\\cmder"
+  },
+  "terminal.integrated.defaultProfile.windows": "D:\\cmder\\vendor\\git-for-windows\\bin\\bash.exe (migrated)",
+    "terminal.integrated.profiles.windows": {
+      "D:\\cmder\\vendor\\git-for-windows\\bin\\bash.exe (migrated)": {
+        "path": "D:\\cmder\\vendor\\git-for-windows\\bin\\bash.exe",
+        "args": []
+      }
+    },
+  // Editor
+  "editor.fontSize": 18,
+  "editor.minimap.enabled": true,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "none",
+  "editor.snippetSuggestions": "top",
+  "editor.suggestSelection": "first",
+  "editor.renderLineHighlight": "all",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  // Workbench
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Monokai++",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  // Window
+  "window.titleBarStyle": "custom",
+  // 面包屑导航
+  // "breadcrumbs.enabled": true,
+  // Markdown
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
+    "editor.quickSuggestions": {
+      "others": true,
+      "comments": true,
+      "strings": true
+    },
+    "editor.acceptSuggestionOnEnter": "on"
+  },
+  // Markdown All in One
+  "markdown.extension.toc.updateOnSave": false,
+  "markdown.extension.toc.githubCompatibility": true,
+  "markdown.extension.toc.levels": "2..3",
+  // Markdown Preview Enhanced
+  "markdown-preview-enhanced.mermaidTheme": "default",
+  "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+  "markdown-preview-enhanced.codeBlockTheme": "monokai.css",
+  // Search
+  "search.showLineNumbers": true,
+  // Update
+  "update.enableWindowsBackgroundUpdates": false,
+  // Code Runner
+  "code-runner.runInTerminal": true,
+  // Go
+
+  "go.goroot": "D:/Go",
+  "go.gopath": "D:/gosrc",
+  // "go.gopath": "D:/gosrc",
+  "go.inferGopath": false, // 使用 Go Modules 时无需 inferGopath
+  "go.useLanguageServer": true,
+  "go.autocompleteUnimportedPackages": true,
+  "go.gotoSymbol.includeImports": false,
+  "go.gotoSymbol.includeGoroot": false,
+  "go.useCodeSnippetsOnFunctionSuggest": true,
+  "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+  "go.lintOnSave": "file",
+  "go.buildOnSave": "off",
+  "go.formatTool": "goimports",
+  "go.testFlags": ["-v", "-count=1"],
+  //"go.alternateTools": {
+  //  "go-langserver": "bingo"
+  // },
+  "gopls": {
+    // "completeUnimported": true,
+    "usePlaceholders": true,
+    // "completionDocumentation": true,
+    "hoverKind": "SynopsisDocumentation" // No/Synopsis/Full, default Synopsis
+  },
+  "go.languageServerExperimentalFeatures": {
+    // "format": true,
+    // "autoComplete": true,
+    // "rename": true,
+    // "goToDefinition": true,
+    // "hover": true,
+    // "signatureHelp": true,
+    // "goToTypeDefinition": true,
+    // "goToImplementation": true,
+    // "documentSymbols": true,
+    // "workspaceSymbols": true,
+    // "findReferences": true,
+    "diagnostics": false
+  },
+  // python
+  //"python.pythonPath": "/Users/tanzijun/.pyenv/versions/3.8.1/bin/python",
+  // 代理
+  //"http.proxyStrictSSL": false,
+  //"http.proxy": "http://127.0.0.1:8000",
+  // 网易云音乐
+  "NeteaseMusic.CDN.redirect": false,
+  // Git
+  "git.ignoreLegacyWarning": true,
+  // 字体
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace, '苹方-简', 'Sarasa Gothic SC'",
+  "editor.fontLigatures": true,
+  // 1.40.0+，自定义 activeBar 颜色
+  "workbench.colorCustomizations": {
+    "activityBar.activeBorder": "#007AC7",
+    "activityBar.activeBackground": "#294A5B"
+  },
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  //"editor.codeActionsOnSave": null,
+
+  //代码格式化配置---------start-----------
+  // tab 大小为2个空格
+  "editor.tabSize": 2,
+  // 100 列后换行
+  "editor.wordWrapColumn": 100,
+  // 保存时格式化
+  "editor.formatOnSave": true,
+  // 开启 vscode 文件路径导航
+  "breadcrumbs.enabled": true,
+  // prettier 设置语句末尾不加分号
+  "prettier.semi": false,
+  // prettier 设置强制单引号
+  "prettier.singleQuote": true,
+  // 选择 vue 文件中 template 的格式化工具
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  // 显示 markdown 中英文切换时产生的特殊字符
+  "editor.renderControlCharacters": true,
+  // 设置 eslint 保存时自动修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  // eslint 检测文件类型
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "vue",
+    "Markdown"
+  ],
+  // vetur 的自定义设置
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "singleQuote": true,
+      "semi": false
+    }
+  },
+
+  //代码格式化配置---------end-----------
+}
