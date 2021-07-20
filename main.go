@@ -45,9 +45,9 @@ func InitDB() {
 	DB, _ = sql.Open("mysql", path)
 
 	//设置上数据库最大闲置连接数
-	// DB.SetMaxIdleConns(10)
+	DB.SetMaxIdleConns(10)
 	//设置数据库最大连接数
-	// DB.SetConnMaxLifetime(20)
+	DB.SetConnMaxLifetime(20)
 	//验证连接
 	if err := DB.Ping(); err != nil {
 		fmt.Println("open database fail")
