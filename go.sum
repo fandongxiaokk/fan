@@ -1,0 +1,6 @@
+github.com/eddycjy/go-retract-demo v0.3.0 h1:ZqcmoDvBpMAON23YajrzpuL44jnGAnx93SRjylkhaKc=
+github.com/eddycjy/go-retract-demo v0.3.0/go.mod h1:w78kT+Rmuc7SyFFU2Gwixouk50dnbShYnf7x6Braz8E=
+github.com/go-sql-driver/mysql v1.6.0 h1:BCTh4TKNUYmOmMUcQ3IipzF5prigylS7XXjEkfCHuOE=
+github.com/go-sql-driver/mysql v1.6.0/go.mod h1:DCzpHaOWr8IXmIStZouvnhqoel9Qv2LBy8hT2VhHyBg=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=

@@ -1,0 +1,26 @@
+{
+
+  //launch.json 文件为调试文件用
+  // 使用 IntelliSense 了解相关属性。 
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Go",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "host": "127.0.0.1",
+      "port": 2345,
+      // "program": "${workspaceFolder}/AlertToAops/main.go",
+      "program": "${workspaceFolder}/main.go",
+      // "cwd": "${workspaceFolder}/creatTable",
+      "cwd": "${workspaceFolder}",
+      //workspaceFolder变量 路径为工程路径：D:\\gowork\\src\\fan
+      // "env": { "GOPATH": "D:\\gowork\\src" },
+      "env": { "GOPATH": "D:\\gosrc" },
+      "args": []
+    }
+  ]
+}
